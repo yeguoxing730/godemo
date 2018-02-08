@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;GODemo&gt;">
+    <CLASSES>
+      <root url="file://D:/GoWorkspace/src/webApp" />
+      <root url="file://D:/GoWorkspace/src/Hello" />
+      <root url="file://D:/GoWorkspace/src/github.com" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/GoWorkspace/src/webApp" />
+      <root url="file://D:/GoWorkspace/src/Hello" />
+      <root url="file://D:/GoWorkspace/src/github.com" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
