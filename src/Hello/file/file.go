@@ -7,6 +7,7 @@ import (
 	"io"
 	"bufio"
 )
+//https://xxbandy.github.io/2017/12/17/Golang%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/
 //读取文件需要经常进行错误检查，这个帮助方法可以精简下面的错误检查过程。
 func check(e error) {
 	if e != nil {
