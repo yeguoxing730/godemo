@@ -22,7 +22,7 @@ func failOnError(err error, msg string) {
 
 func main() {
 	// 连接
-	conn, err := amqp.Dial("amqp://admin:admin@localhost:5672/")
+	conn, err := amqp.Dial("amqp://guest:guest@localhost:5672/")
 	failOnError(err, "Failed to connect to RabbitMQ")
 	defer conn.Close()
 
@@ -33,7 +33,7 @@ func main() {
 
 	// 申明一个队列
 	q, err := ch.QueueDeclare(
-		"task_queue", // name
+		"go_task_queue", // name
 		true,         // durable  持久性的,如果事前已经声明了该队列，不能重复声明
 		false,        // delete when unused
 		false,        // exclusive 如果是真，连接一断开，队列删除
